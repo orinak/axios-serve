@@ -1,0 +1,46 @@
+{
+  "name": "axios-serve",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "description": "Test http apps with Axios",
+  "keywords": [
+    "axios",
+    "request",
+    "server",
+    "http",
+    "test"
+  ],
+  "scripts": {
+    "test": "ava -s --fail-fast",
+    "lint": "standard --fix",
+    "prepublishOnly": "npm test && npm run lint"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "koa": "^2.3.0",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "get-port": "^3.2.0"
+  },
+  "ava": {
+    "files": [
+      "test/**/*.spec.js"
+    ]
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "Che Oshn",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spb14/axios-serve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spb14/axios-serve/issues"
+  },
+  "homepage": "https://github.com/spb14/axios-serve#readme"
+}
