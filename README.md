@@ -8,7 +8,7 @@ Run [Axios][axios] with `net.Server` under the hood. Good for isolated tests.
 ## Usage
 
 ```js
-const Axios = require('axios-server')
+const Axios = require('axios-serve')
 
 const app = require('./app.js') // Express app
 
