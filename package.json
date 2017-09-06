@@ -1,6 +1,6 @@
 {
   "name": "axios-serve",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "lib/index.js",
   "description": "Test http apps with Axios",
   "keywords": [
